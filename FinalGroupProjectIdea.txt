@@ -1,0 +1,9 @@
+Room 2
+Team: Feruz, Zac, Sushma, Helen, TaNeisha
+
+What does it do?
+	Give the bot an audience (age of user) and a subject prompt. Have it summarize based on the audience.
+Who does this help?
+	A target age group specified by the user.
+What problem is it solving?
+	Provide appropriate and digestable information for specified age group.
