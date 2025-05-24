@@ -21,8 +21,20 @@ npm run dev
 ```
 
 ### Backend Setup
+You can use the provided script to rebuild the backend virtual environment and install dependencies automatically:
+
+```powershell
+./rebuild_venv.bat
+```
+
+#### To update dependencies:
+1. Edit `backend/requirements.txt` as needed.
+2. Re-run the script above to install the updated dependencies.
+
+#### Manual steps (if needed):
 ```powershell
 cd backend
+python -m venv .venv
 .\.venv\Scripts\activate
 pip install -r requirements.txt
 uvicorn main:app --reload

@@ -1,4 +1,7 @@
 fastapi
+fastapi[all]
 uvicorn
 langchain
 openai
+pydantic
+python-dotenv
